@@ -1,0 +1,539 @@
+body {
+   background-color: black;
+   background-size: 1920px 1080px;
+}
+
+#wrap {
+    position: relative;
+}
+
+.background1 {
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    z-index: 8;
+    left: 7%;
+    opacity: 0.3;
+    margin-top: 100px;
+    animation-name: snowing1;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes snowing1 {
+    0%{
+        opacity: 0.3;
+        margin-top: 100px;
+    }
+    
+    50%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 0.6;
+        margin-top: 150px;
+    }
+}
+
+.background2 {
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    z-index: 7;
+    opacity: 0.3;
+    margin-top: 150px;
+    animation-name: snowing2;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes snowing2 {
+    0%{
+        opacity: 0.3;
+        margin-top: 150px;
+    }
+    
+    50%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 0.7;
+        margin-top: 210px;
+    }
+}
+
+.title1 {
+    width: 75%;
+    margin-top: 230px;
+    /* margin-left: 280px; */
+    left: 14%;
+    /* top: 50%; */
+    position: absolute;
+    z-index: 15;
+    animation-name: lighttwinkle;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+
+.title2 {
+    width: 75%;
+    margin-top: 230px;
+    /* margin-left: 280px; */
+    left: 14%;
+    /* top: 50%; */
+    position: absolute;
+    z-index: 14;
+}
+
+
+
+.light1 {
+    width: 101%;
+    display: block;
+    text-align: center;
+    margin: 10px 0 0 0;
+    top: 0;
+    margin-left: -10px;
+    position: absolute;
+    z-index: 10;
+    animation-name: lighttwinkle;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+.light2 {
+    width: 101%;
+    display: block;
+    text-align: center;
+    margin: 10px 0 0 0;
+    top: 0;
+    margin-left: -10px;
+    position: absolute;
+    z-index: 1;
+}
+
+.grass2 {
+    width: 53%;
+    height: 53%;
+    margin-top: 140px;
+    margin-left: 5px;
+    left: 23%;
+    position: absolute;
+    z-index: 3;
+    opacity: 1;
+    animation-name: grassopacity;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.grass3 {
+    width: 53%;
+    height: 53%;
+    margin-top: 140px;
+    margin-left: 5px;
+    left: 23%;
+    position: absolute;
+    z-index: 2;
+}
+
+
+@-webkit-keyframes grassopacity {
+    0%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    81%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.deco {
+    width: 53%;
+    height: 53%;
+    margin-top: 140px;
+    margin-left: 5px;
+    left: 23%;
+    position: absolute;
+    z-index: 5;
+    animation-name: decomoving;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes decomoving {
+    0%{
+        margin-top: 135px;
+    }
+    50%{
+        margin-top: 140px;
+    }
+    100%{
+        margin-top: 135px;
+    }
+}
+
+
+
+
+@-webkit-keyframes lighttwinkle {
+    0%{
+        opacity: 1;
+    }
+    45%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#main {
+    width: 49%;
+    height: 80%;
+    top: 19.5%;
+    margin-left: -65px;
+    left: 29%;
+    /* border: 5px solid yellow; */
+    position: absolute;
+    z-index: 20;
+}
+
+.section1 {
+    width: 300px;
+    height: 100px;
+    /* border: 5px solid blue; */
+    box-sizing: border-box;
+    left: 55%;
+    top: 8%;
+    position: absolute;
+    z-index: 30;
+    animation-name: santakirby1;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes santakirby1 {
+    0%{
+        left: 55%;
+    }
+    100%{
+        left: 47%;
+    }
+}
+
+
+.section2 {
+    width: 300px;
+    height: 100px;
+    /* border: 5px solid gray; */
+    box-sizing: border-box;
+    left: 70%;
+    bottom: 53%;
+    position: absolute;
+    z-index: 30;
+    animation-name: santakirby2;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes santakirby2 {
+    0%{
+        left: 70%;
+        bottom: 53%;
+    }
+    100%{
+        left: 50%;
+        bottom: 52.5%;
+    }
+}
+
+.section3 {
+    width: 300px;
+    height: 100px;
+    /* border: 5px solid red; */
+    box-sizing: border-box;
+    left: 20%;
+    bottom: 39%;
+    position: absolute;
+    z-index: 30;
+    animation-name: santakirby3;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+}
+
+@-webkit-keyframes santakirby3 {
+    0%{
+        left: 20%;
+        bottom: 39%;
+    }
+    100%{
+        left: 47%;
+        bottom: 38.5%;
+    }
+}
+
+
+.section4 {
+    width: 300px;
+    height: 100px;
+    /* border: 5px solid white; */
+    box-sizing: border-box;
+    left: 70%;
+    bottom: 26%;
+    position: absolute;
+    z-index: 30;
+    animation-name: santakirby4;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes santakirby4 {
+    0%{
+        left: 68%;
+        bottom: 26%;
+    }
+    100%{
+        left: 40%;
+        bottom: 26%;
+    }
+}
+
+
+
+.section5 {
+    width: 300px;
+    height: 100px;
+    /* border: 5px solid palegreen; */
+    box-sizing: border-box;
+    left: 25%;
+    bottom: 12%;
+    position: absolute;
+    z-index: 30;
+    animation-name: santakirby5;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+}
+
+@-webkit-keyframes santakirby5 {
+    0%{
+        left: 25%;
+        bottom: 12%;
+    }
+    100%{
+        left: 38%;
+        bottom: 12.5%;
+    }
+}
+
+
+
+
+.santa1, .santa2, .santa3 {
+    width: 30%;
+}
+
+.santa1 {
+    position: absolute;
+    z-index: 45;
+    animation-name: santa1;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+}
+
+.santa2{
+    position: absolute;
+    z-index: 40;
+    opacity: 0;
+    animation-name: santa2;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+}
+
+.santa3{
+    position: absolute;
+    z-index: 35;
+    opacity: 0;
+    animation-name: santa3;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+}
+
+
+
+
+
+.santa-1, .santa-2, .santa-3 {
+    width: 30%;
+}
+
+
+.santa-1-1, .santa-2-1, .santa-3-1 {
+    width: 30%;
+}
+
+
+
+
+.santa-1 {
+    position: absolute;
+    z-index: 45;
+    animation-name: santa1;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+}
+
+.santa-2{
+    position: absolute;
+    z-index: 40;
+    opacity: 0;
+    animation-name: santa2;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+}
+
+.santa-3{
+    position: absolute;
+    z-index: 35;
+    opacity: 0;
+    animation-name: santa3;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+}
+
+
+
+.santa-1-1 {
+    position: absolute;
+    z-index: 45;
+    animation-name: santa1;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 1s;
+}
+
+.santa-2-1{
+    position: absolute;
+    z-index: 40;
+    opacity: 0;
+    animation-name: santa2;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 1s;
+}
+
+.santa-3-1{
+    position: absolute;
+    z-index: 35;
+    opacity: 0;
+    animation-name: santa3;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 1s;
+}
+
+
+@-webkit-keyframes santa1 {
+    0%{
+        opacity: 1;
+    }
+    1%{
+        opacity: 0;
+    }
+    94%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes santa2 {
+    0%{
+        opacity: 0;
+    }
+    1%{
+        opacity: 1;
+    }
+    46%{
+        opacity: 1;
+    }
+    47%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes santa3 {
+    0%{
+        opacity: 0;
+    }
+    46%{
+        opacity: 0;
+    }
+    47%{
+        opacity: 1;
+    }
+    96%{
+        opacity: 1;
+    }
+    97%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.music {
+    width: 15%;
+    position: absolute;
+    z-index: 300;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+}
